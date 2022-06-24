@@ -4,47 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css" class="css">
-    <link rel="stylesheet" href="utils.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
 </head>
 <body>
-    <h1 class="text-center">Calculator</h1>
-    <div class="container">
-        <div class="row">   
-            <input class="input" type="text"/>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/flip.png" alt="">
+            </div>
+            
+            <div class="search">
+                <input type="text" placeholder="Search for products, Brands and more" >
+             
+            
+                <button class="btn">Login</button>
+            </div>
+            <ul>
+                <li><a href="home.html">Become a Seller</a></li>
+                <li><a href="about.html">More</a></li>
+                <li><a href="contact.html">Cart</a></li>   
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="box">
+            <ul>
+                <li>Top Offers</li>
+                <li>Grocery</li>
+                <li>Mobiles</li>
+                <li>Fashion</li>
+                <li>Electronics</li>
+                <li>Home</li>
+                <li>Appliances</li>
+                <li>Travel</li>
+                <li>Beauty & More</li>
+            </ul>
         </div>
-        <div class="row">
-            <button class=" aq grey button">AC</button>
-            <button class="aq grey button">+/-</button>
-            <button class="aq grey button">%</button>
-            <button class="aq bq y button">/</button>
+        <div class="container">
+            <div class="slider">
+                <img class="img1" src="img/pic1.jpg" alt="">
+                <img class="img2" src="img/pic2.jpg" alt="">
+                <!-- <img class="img4" src="img/pic4.jpg" alt=""> -->
+            </div>
+        
+            <div class="card">
+                <h2>Today,s Fashion Deals</h2>
+                <div class="carditem">
+                    <img class="m1" src="img/jeans2.jpg" alt="">
+                    <img class="m2" src="img/kurti2.jpg" alt="">
+                    <img class="m3" src="img/Shirts2.jpg" alt="">
+                    <img class="m4" src="img/shoes2.jpg" alt="">
+                    <img class="m5" src="img/sssrt2.jpg" alt="">
+                </div>
+                <div class="lines">
+                    <p>Jeans</p>
+                    <p>Min 20% off</p>
+                    <p>Grab Now!</p>
+                </div>
+                <div class="lines2">
+                    <p>Kurti</p>
+                    <p>Min 10% off</p>
+                    <p>Grab Now!</p>
+                </div>
+                <div class="lines3">
+                    <p>T-Shirts</p>
+                    <p>Min 10% off</p>
+                    <p>Buy Now!</p>
+                </div>
+                <div class="lines4">
+                    <p>Shoes</p>
+                    <p>Flat 50% off</p>
+                    <p>Buy Now!</p>
+                </div>
+                <div class="lines5">
+                    <p>Shirts</p>
+                    <p>Min 20% off</p>
+                    <p>Hurry Up!</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <button class="wt button">7</button>
-            <button class="wt button">8</button>
-            <button class="wt button">9</button>
-            <button class="y button">*</button>
-        </div>
-        <div class="row">
-            <button class="wt button">4</button>
-            <button class="wt button">5</button>
-            <button class="wt button">6</button>
-            <button class="y button">-</button>
-        </div>
-        <div class="row">
-            <button class="wt button">1</button>
-            <button class="wt button">2</button>
-            <button class="wt button">3</button>
-            <button class="y button">+</button>
-        </div>
-        <div class="row">
-            <button class ="wt zero button">0</button>
-            <!-- <button class="button">8</button> -->
-            <button class="wt button">.</button>
-            <button class="y button">=</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    </main>
+    <footer class="flex-all-center">
+        <p >Copyright &copy;MyCart.com</p>
+    </footer>
+    
 </body>
 </html>
